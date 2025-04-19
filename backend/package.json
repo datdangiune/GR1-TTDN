@@ -1,0 +1,31 @@
+{
+  "name": "ai-webagent-backend",
+  "version": "1.0.0",
+  "description": "Backend for AI WebAgent platform",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@google-cloud/translate": "^6.2.0",
+    "axios": "^1.8.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "googleapis": "^148.0.0",
+    "json2csv": "^5.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "node-schedule": "^2.1.0",
+    "pdfkit": "^0.13.0",
+    "playwright": "^1.52.0",
+    "puppeteer": "^24.6.1",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
